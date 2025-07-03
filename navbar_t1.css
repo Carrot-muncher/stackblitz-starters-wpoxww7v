@@ -18,36 +18,35 @@ body{
 /*Logo*/
 .logo{
     height:50px;
-    /*background-color: red;*/
+    background-color: red;
 }
 
 /*Dropdown Menus*/
-.dropdown{
+.dropdown-toggle{
     font-family: "Playfair Display";
     font-size: 20px;
     color: black;
-    /*background-color: green;*/
+    background-color: green;
 }
-
 /*Search Bar*/
 .search-bar{
     border: 1px solid white;
     border-radius: 25px;
     text-align: center;
-    /*background-color: yellow;*/
+    background-color: yellow;
 }
 .search-button{
     background-color: rgb(0, 81, 120);
     border: 1px solid rgb(0, 81, 120);
     border-radius: 25px;
-    /*background-color: yellow;*/
+    background-color: yellow;
 }
 
 /*Collapsible Button*/
 .navbar-toggler{
     border: 1px solid black;
     border-radius: 7.5px;
-    /*background-color: blue;*/
+    background-color: blue;
 }
 .icon{
     color: black;
