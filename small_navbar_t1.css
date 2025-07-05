@@ -1,6 +1,5 @@
 /*Imports*/
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-
 /*General*/
 body{
     margin: 0;
@@ -18,7 +17,7 @@ body{
 /*Logo*/
 .logo{
     height:50px;
-    background-color: red;
+    margin: 10px;
 }
 
 /*Dropdown Menus*/
@@ -26,27 +25,48 @@ body{
     font-family: "Playfair Display";
     font-size: 20px;
     color: black;
-    background-color: green;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
+.dropdown-toggle:hover{
+    color: black;
+    border: 1px solid black;
+    border-radius: 7.5px;
+    margin-right: 10px;
+}
+
 /*Search Bar*/
 .search-bar{
+    display: block;
     border: 1px solid white;
     border-radius: 25px;
     text-align: center;
-    background-color: yellow;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 .search-button{
+    display: block;
     background-color: rgb(0, 81, 120);
     border: 1px solid rgb(0, 81, 120);
     border-radius: 25px;
-    background-color: yellow;
+    margin-bottom: 10px;
+}
+.medium-search-bar{
+    display:none;
+}
+.medium-search-button{
+    display:none;
 }
 
 /*Collapsible Button*/
 .navbar-toggler{
     border: 1px solid black;
     border-radius: 7.5px;
-    background-color: blue;
+    margin-right: 10px;
+    position:absolute;
+    right: 0;
+    top: 20px;
 }
 .icon{
     color: black;
