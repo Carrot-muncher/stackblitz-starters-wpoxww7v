@@ -34,6 +34,11 @@ body{
     border-radius: 7.5px;
     margin-right: 10px;
 }
+.dropdown-menu{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
 
 /*Search Bar*/
 .search-bar{
