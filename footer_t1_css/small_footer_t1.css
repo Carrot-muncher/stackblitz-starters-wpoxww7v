@@ -3,7 +3,21 @@
 /*Formatting the footer*/
 .footer{
     background-color: rgb(162, 162, 162);
-    
+    padding: 10px 1% ;
+}
+/*Formatting the footer boxes*/
+.footer-box{
+    display: block;
+    margin-bottom: 10px;
+    width: 99%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 7.5px;
+}
+#utilities{
+    margin-bottom: 0;
+    width: 99%;
 }
 /*Formatting the footer titles*/
 .footer-title{
