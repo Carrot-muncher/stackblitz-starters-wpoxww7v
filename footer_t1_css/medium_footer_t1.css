@@ -1,25 +1,17 @@
 /*Imports*/
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/*Formatting the footer*/
 .footer{
-    background-color: rgb(0, 162, 162);
+    background-color: rgb(162, 162, 162);
+    
 }
-.footer-box{
-    display: inline-block;
-    vertical-align: top;
-    height: 200px;
-    width: 48%;
-    margin-left: 1%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 0.125px solid black;
-    border-radius: 7.5px;
-}
+/*Formatting the footer titles*/
 .footer-title{
     font-family: "Playfair Display";
     font-size: 20px;
     color: black;
 }
+/*Formatting the footer text*/
 .footer-link{
     font-family: "Playfair Display";
     font-size: 15px;
@@ -30,10 +22,4 @@
     color: black;
     border: 1px solid black;
     border-radius: 7.5px;
-}
-#utilities{
-    display: block;
-    width: 97.75%;
-    margin-top: 0;
-    margin-bottom: 100px;
 }
