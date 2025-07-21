@@ -4,7 +4,9 @@
     <title>Footer Type 1</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="index_body_t1_css/index_body_t1.css">
+    <link rel="stylesheet" href="index_body_t1_css/medium_index_body_t1.css">
+    <link rel="stylesheet" media="screen and (min-width: 570px)" href="index_body_t1_css/large_index_body_t1.css">
+    <link rel="stylesheet" media="screen and (max-width: 375px)" href="index_body_t1_css/small_index_body_t1.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
@@ -13,42 +15,138 @@
 </head>
 
 <body>
-    <h1>Online Gallery</h1>
+    <!--Header-->
+    <h1 class="main-header">Online Gallery</h1>
 
-    <!--Carousel-->
-    <div class="carousel slide" data-ride="carousel">
+   <!--Carousel-->
+   <div id="demo" class="carousel slide" data-ride="carousel">
 
-        <!-- Indicators -->
-        <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-            <li data-target="#demo" data-slide-to="3"></li>
-            <li data-target="#demo" data-slide-to="4"></li>
-        </ul>
-        
-        <!-- The slideshow -->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
+       <!-- Indicators -->
+       <ul class="carousel-indicators">
+           <li data-target="#demo" data-slide-to="0" class="active"></li>
+           <li data-target="#demo" data-slide-to="1"></li>
+           <li data-target="#demo" data-slide-to="2"></li>
+           <li data-target="#demo" data-slide-to="3"></li>
+           <li data-target="#demo" data-slide-to="4"></li>
+       </ul>
+       
+       <!-- The slideshow -->
+       <div class="carousel-inner">
+           <div class="carousel-item active">
                 <a class="carousel-brand" href="#">
-                    <img class="carousel-images" src="#" alt="____">
+                    <img class="carousel-images" src="artwork/demo_art.png" alt="Demo">
                 </a>
                 <div class="carousel-caption">
-                    <h3>_____</h3>
+                    <h3>A Demo 1</h3>
                     <p>
-                        ______
+                        Blah Blah Blah
                     </p>
                 </div>
-            </div>
+           </div>
+           <div class="carousel-item">
+                <a class="carousel-brand" href="#">
+                    <img class="carousel-images" src="artwork/demo_art.png" alt="Demo">
+                </a>
+                <div class="carousel-caption">
+                    <h3>A Demo 2</h3>
+                    <p>
+                        Blah Blah Blah
+                    </p>
+                </div>
+           </div>
+           <div class="carousel-item">
+                <a class="carousel-brand" href="#">
+                    <img class="carousel-images" src="artwork/demo_art.png" alt="Demo">
+                </a>
+                <div class="carousel-caption">
+                    <h3>A Demo 3</h3>
+                    <p>
+                        Blah Blah Blah
+                    </p>
+                </div>
+           </div>
+           <div class="carousel-item">
+                <a class="carousel-brand" href="#">
+                    <img class="carousel-images" src="artwork/demo_art.png" alt="Demo">
+                </a>
+                <div class="carousel-caption">
+                    <h3>A Demo 4</h3>
+                    <p>
+                        Blah Blah Blah
+                    </p>
+                </div>
+           </div>
+           <div class="carousel-item">
+                <a class="carousel-brand" href="#">
+                    <img class="carousel-images" src="artwork/demo_art.png" alt="Demo">
+                </a>
+                <div class="carousel-caption">
+                    <h3>A Demo 5</h3>
+                    <p>
+                        Blah Blah Blah
+                    </p>
+                </div>
+           </div>
+       </div>
+       
+       <!-- Left and right controls -->
+       <a class="carousel-control-prev" href="#demo" data-slide="prev">
+           <span class="carousel-control-prev-icon"></span>
+       </a>
+       <a class="carousel-control-next" href="#demo" data-slide="next">
+           <span class="carousel-control-next-icon"></span>
+       </a>
+       
+   </div>
+
+    <!--Cards-->
+    <!--Year 9-->
+    <div class="card" style="width:400px">
+        <img class="card-img-top" src="artwork/demo_art.png" alt="Demo">
+        <div class="card-body">
+            <h4 class="card-title">Year 9</h4>
+            <p class="card-text">Blah Blah Blah </p>
+            <a href="#" class="btn card-button">Year 9 Gallery</a>
         </div>
-        
-        <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
-        
+    </div>
+
+    <!--Year 10-->
+    <div class="card" style="width:400px">
+        <img class="card-img-top" src="artwork/demo_art.png" alt="Demo">
+        <div class="card-body">
+            <h4 class="card-title">Year 10</h4>
+            <p class="card-text">Blah Blah Blah </p>
+            <a href="#" class="btn card-button">Year 10 Gallery</a>
+        </div>
+    </div>
+
+    <!--Year 11-->
+    <div class="card" style="width:400px">
+        <img class="card-img-top" src="artwork/demo_art.png" alt="Demo">
+        <div class="card-body">
+            <h4 class="card-title">Year 11</h4>
+            <p class="card-text">Blah Blah Blah </p>
+            <a href="#" class="btn card-button">Year 11 Gallery</a>
+        </div>
+    </div>
+
+    <!--Year 12-->
+    <div class="card" style="width:400px">
+        <img class="card-img-top" src="artwork/demo_art.png" alt="Demo">
+        <div class="card-body">
+            <h4 class="card-title">Year 12</h4>
+            <p class="card-text">Blah Blah Blah </p>
+            <a href="#" class="btn card-button">Year 12 Gallery</a>
+        </div>
+    </div>
+
+    <!--Year 13-->
+    <div class="card" style="width:400px">
+        <img class="card-img-top" src="artwork/demo_art.png" alt="Demo">
+        <div class="card-body">
+            <h4 class="card-title">Year 13</h4>
+            <p class="card-text">Blah Blah Blah </p>
+            <a href="#" class="btn card-button">Year 13 Gallery</a>
+        </div>
     </div>
 </body>
