@@ -18,11 +18,14 @@
 .body-images{
     display: inline-block;
     vertical-align: top;
-    width: 49%;
+    width: 400px;
+    background-color: green;
+    margin-top: 10px;
 }
 .body-text{
     display: inline-block;
-    width: 50%;
     font-family: "Lato";
     color: white;
+    background-color: blue;
+    margin-top: 10px;
 }
