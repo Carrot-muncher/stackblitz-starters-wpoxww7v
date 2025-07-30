@@ -1,7 +1,7 @@
 /*Imports*/
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('');
 /*Body*/
-.body{
+body{
     width: 90%;
     margin: auto;
     background-color: rgb(0, 81, 120);
@@ -14,4 +14,53 @@
     margin-top: 10px;
     margin-bottom: 0;
     color: white;
+}
+
+/*Section Links*/
+.section-links{
+    margin-top: 10px;
+    text-align: center;
+}
+.section-link{
+    text-decoration: none;
+    color: white;
+    font-family: "Lato";
+    font-size: 30px;
+}
+
+/*Images*/
+.gallery-artwork{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+/*Gallery Headers*/
+.sub-header{
+    font-family: "Lato";
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: white;
+}
+.sub-sub-header{
+    font-family: "Lato";
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: white;
+}
+
+/*Body Text*/
+.body-text{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: "Lato";
+    color: white;
+}
+#last-text-block{
+    margin-bottom: 10px;
 }
