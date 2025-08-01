@@ -9,27 +9,29 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
-<body>
+<body class="body">
     <!--Main Header-->
     <h1 class="main-header">Sitemap</h1>
 
     <!--Home-->
     <!--Home Title-->
-    <h2>Home</h2>
+    <h2 class="sub-header">Home</h2>
     <!--Home Button-->
-    <button type="button" class="btn btn-primary">
-        <!--Home link-->
-        <a href="index.html">Home</a>
-    </button>
+    <div class="dropdown">
+        <button type="button" class="button">
+            <!--Home link-->
+            <a class="button-text" href="index.html">Home</a>
+        </button>
+    </div>
     
 
     <!--Galleries-->
     <!--Galleries Title-->
-    <h2>Galleries</h2>
+    <h2 class="sub-header">Galleries</h2>
     <!--Galleries Dropdown-->
     <div class="dropdown">
         <!--Dropdown Button-->
-        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+        <button type="button" class="button button-text dropdown-toggle" data-bs-toggle="dropdown">
             Galleries
         </button>
         <!--Gallery Links-->
@@ -45,11 +47,11 @@
 
     <!--About-->
     <!--About Title-->
-    <h2>About</h2>
+    <h2 class="sub-header">About</h2>
     <!--About Dropdown-->
     <div class="dropdown">
         <!--Dropdown Button-->
-        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+        <button type="button" class="button button-text dropdown-toggle" data-bs-toggle="dropdown">
             About
         </button>
         <!--About Links-->
