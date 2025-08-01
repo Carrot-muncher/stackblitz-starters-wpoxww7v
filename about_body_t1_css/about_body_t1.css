@@ -33,3 +33,14 @@
     background-color: blue;
     margin-top: 10px;
 }
+
+.row{
+    background-color: blue;
+    padding: 10px;
+}
+.col-sm-12{
+    background-color: red;
+}
+.col-md-6{
+    background-color: green;
+}
