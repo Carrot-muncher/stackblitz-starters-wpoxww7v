@@ -1,12 +1,14 @@
 /*Imports*/
 @import url('');
 /*Body*/
+
 .body{
     width: 90%;
     margin: auto;
     background-color: rgb(0, 81, 120);
     text-align: center;
 }
+
 /*Main Header*/
 .main-header{
     font-family: "Lato";
@@ -16,6 +18,7 @@
     margin-bottom: 0;
     color: rgb(255,255,255);
 }
+
 /*Carousel*/
 .carousel{
     width: 100%;
@@ -27,6 +30,7 @@
 .carousel-caption{
     font-family: "Lato";
 }
+
 /*Cards*/
 .card{
     display: inline-block;

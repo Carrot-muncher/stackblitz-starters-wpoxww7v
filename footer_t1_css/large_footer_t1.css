@@ -1,10 +1,12 @@
 /*Imports*/
 @import url('');
+
 /*Formatting the footer*/
 .footer{
     background-color: rgb(162, 162, 162);
     padding: 10px 1% ;
 }
+
 /*Formatting the footer boxes*/
 .footer-box{
     display: inline-block;
@@ -25,12 +27,14 @@
         width: 33%;
     }
 }
+
 /*Formatting the footer titles*/
 .footer-title{
     font-family: "Playfair Display";
     font-size: 20px;
     color: black;
 }
+
 /*Formatting the footer text*/
 .footer-link{
     font-family: "Playfair Display";

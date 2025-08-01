@@ -1,5 +1,6 @@
 /*Imports*/
 @import url('');
+
 /*Formatting the footer box*/
 .footer{
     background-color: rgb(162, 162, 162);
@@ -8,12 +9,14 @@
     padding: 20px;
     margin: 10px;
 }
+
 /*Formatting the footer titles*/
 .footer-title{
     font-family: "Playfair Display";
     font-size: 20px;
     color: black;
 }
+
 /*Formatting the footer text*/
 .footer-link{
     font-family: "Playfair Display";
