@@ -1,7 +1,4 @@
-/*Imports*/
-@import url('');
 /*Body*/
-
 .body{
     width: 90%;
     margin: auto;
@@ -30,6 +27,10 @@
 .carousel-caption{
     font-family: "Lato";
 }
+
+
+
+
 
 /*Cards*/
 .card{

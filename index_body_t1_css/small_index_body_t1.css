@@ -1,11 +1,11 @@
-/*Imports*/
-@import url('');
 /*Body*/
 .body{
     width: 90%;
     margin: auto;
     background-color: rgb(0, 81, 120);
+    text-align: center;
 }
+
 /*Main Header*/
 .main-header{
     font-family: "Lato";

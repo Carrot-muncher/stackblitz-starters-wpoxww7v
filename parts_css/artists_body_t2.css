@@ -1,8 +1,5 @@
-/*Imports*/
-@import url('');
-
 /*Body*/
-body{
+.body{
     width: 90%;
     margin: auto;
     background-color: rgb(0, 81, 120);
@@ -30,13 +27,6 @@ body{
     font-size: 30px;
 }
 
-/*Images*/
-.gallery-artwork{
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 0;
-}
-
 /*Gallery Headers*/
 .sub-header{
     font-family: "Lato";
@@ -46,23 +36,16 @@ body{
     margin-bottom: 0;
     color: white;
 }
-.sub-sub-header{
-    font-family: "Lato";
-    font-size: 40px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 0;
-    color: white;
-}
 
-/*Body Text*/
-.body-text{
+/*Cards*/
+.card{
+    display: inline-block;
     width: 100%;
     margin-top: 10px;
-    margin-bottom: 0px;
-    font-family: "Lato";
-    color: white;
 }
-#last-text-block{
-    margin-bottom: 10px;
+.card-body{
+    font-family: "Lato";
+}
+#last-card{
+    margin-bottom: 10px;;
 }
