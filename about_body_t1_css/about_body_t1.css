@@ -25,22 +25,13 @@
     width: 400px;
     background-color: green;
     margin-top: 10px;
+    width: 100%;
 }
 .body-text{
     display: inline-block;
     font-family: "Lato";
+    font-size: 2.25vw;
     color: white;
-    background-color: blue;
     margin-top: 10px;
-}
-
-.row{
-    background-color: blue;
-    padding: 10px;
-}
-.col-sm-12{
-    background-color: red;
-}
-.col-md-6{
-    background-color: green;
+    width: 100%;
 }
