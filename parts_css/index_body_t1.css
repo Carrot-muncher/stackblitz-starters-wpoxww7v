@@ -6,7 +6,7 @@
     text-align: center;
 }
 
-/*Main Header*/
+/*Headers*/
 .main-header{
     font-family: "Lato";
     font-size: 60px;
@@ -15,6 +15,15 @@
     margin-bottom: 0;
     color: rgb(255,255,255);
 }
+.sub-header{
+    font-family: "Lato";
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: white;
+}
+
 /*Carousel*/
 .carousel{
     width: 100%;

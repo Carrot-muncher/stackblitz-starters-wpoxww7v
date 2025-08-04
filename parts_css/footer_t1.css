@@ -1,6 +1,6 @@
 /*Formatting the footer*/
 .footer{
-    background-color: rgb(162, 162, 162);
+    background-color: rgb(190, 190, 190);
     padding: 10px 1% ;
 }
 
@@ -56,19 +56,19 @@
 
 /*Formatting the footer titles*/
 .footer-title{
-    font-family: "Playfair Display";
+    font-family: "Righteous";
     font-size: 20px;
     color: black;
 }
 
 /*Formatting the footer text*/
 .footer-link{
-    font-family: "Playfair Display";
+    font-family: "Righteous";
     font-size: 15px;
     color: black;
 }
 .footer-link:hover{
-    font-family: "Playfair Display";
+    font-family: "Righteous";
     color: black;
     border: 1px solid black;
     border-radius: 7.5px;

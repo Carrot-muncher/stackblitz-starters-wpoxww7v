@@ -5,7 +5,7 @@ body{
 
 /*Navbar*/
 .navbar{
-    background-color: rgb(162, 162, 162);
+    background-color: rgb(190, 190, 190);
     width: 100%;
     height: 5%;
     margin:0;
@@ -19,7 +19,7 @@ body{
 
 /*Dropdown Menus*/
 .dropdown-toggle{
-    font-family: "Playfair Display";
+    font-family: "Righteous";
     font-size: 20px;
     color: black;
     margin-left: 10px;

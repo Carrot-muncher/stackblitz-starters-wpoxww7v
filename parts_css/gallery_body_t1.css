@@ -16,15 +16,27 @@ body{
 }
 
 /*Section Links*/
-.section-links{
-    margin-top: 10px;
+.button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(162, 162, 162);
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 10px;
     text-align: center;
 }
-.section-link{
+.button:hover{
+    background-color: rgb(138, 138, 138);
+}
+.button-text{
+    font-family: "Lato";
+    text-align: center;
+    font-size: 17px;
     text-decoration: none;
     color: white;
-    font-family: "Lato";
-    font-size: 30px;
 }
 
 /*Images*/
