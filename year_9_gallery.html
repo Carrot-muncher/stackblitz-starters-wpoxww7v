@@ -1,14 +1,330 @@
-<a href="navbar_t1.html">Navbar Type 1</a>
-<a href="navbar_t2.html">Navbar Type 2</a>
-<a href="footer_t1.html">Footer Type 1</a>
-<a href="footer_t2.html">Footer Type 2</a>
-<a href="index_body_t1.html">Index Body Type 1</a>
-<a href="index_body_t2.html">Index Body Type 2</a>
-<a href="about_body_t1.html">About Body Type 1</a>
-<a href="about_body_t2.html">About Body Type 2</a>
-<a href="gallery_body_t1.html">Gallery Body Type 1</a>
-<a href="gallery_body_t2.html">Gallery Body Type 2</a>
-<a href="artists_body_t1.html">Artists Body Type 1</a>
-<a href="artists_body_t2.html">Artists Body Type 2</a>
-<a href="sitemap_body_t1.html">Sitemap Body Type 1</a>
-<a href="sitemap_body_t2.html">Sitemap Body Type 2</a>
+<!DOCTYPE html>
+
+<head>
+    <title>Year _ Gallery</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="gallery.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/638832c8dc.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Righteous&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+    </style> 
+</head>
+
+<body class="background">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md sticky-top">
+        <div class="container-fluid">
+            <!--Logo with Link-->
+            <a href="index.html">
+                <img class="logo" src="artwork_and_pictures/logo.png" alt="Logo">
+            </a>
+
+            <!--Search Bar for medium sized screens-->
+            <form class="d-flex">
+                <!--Search Bar-->
+                <input class="medium-search-bar" type="text" placeholder="Search">
+                <!--Search Button-->
+                <button class="medium-search-button" type="button">Search</button>
+            </form>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="icon fa-solid fa-bars"></span>
+            </button>
+
+            <!--Collapsible Navbar-->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <!-- Navbar links --> 
+                <ul class="navbar-nav">  
+                    <!--Dropdown-->
+                    <li class="nav-item dropdown">
+                        <!--Dropdown Button-->
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Galleries
+                        </a>
+                        <!--Dropdown Links-->
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="year_9_gallery.html">Year 9 Gallery</a>
+                            <a class="dropdown-item" href="year_10_gallery.html">Year 10 Gallery</a>
+                            <a class="dropdown-item" href="year_11_gallery.html">Year 11 Gallery</a>
+                            <a class="dropdown-item" href="year_12_gallery.html">Year 12 Gallery</a>
+                            <a class="dropdown-item" href="year_13_gallery.html">Year 13 Gallery</a>
+                        </div>
+                    </li>
+                    <!--Dropdown-->
+                    <li class="nav-item dropdown">
+                        <!--Dropdown Button-->
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            About
+                        </a>
+                        <!--Dropdown Links-->
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="about_the_school.html">About the School</a>
+                            <a class="dropdown-item" href="about_the_art_department.html">About the Art Department</a>
+                            <a class="dropdown-item" href="about_the_artists.html">About the Artists</a>
+                        </div>
+                    </li>
+                </ul>
+
+                <!--Search Bar for large and small sized screens-->
+                <form class="d-flex">
+                    <!--Search Bar-->
+                    <input class="search-bar" type="text" placeholder="Search">
+                    <!--Search Button-->
+                    <button class="search-button" type="button">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!--Body Section-->
+    <div class="body">
+        <!--Main Header-->
+        <h1 class="main-header">Year _</h1>
+
+        <!--Links to each artist's section-->
+        <div>
+            <button type="button" class="button">
+                <a class="button-text" href="#artist-1">______(Artist 1)</a>
+            </button>
+            <button type="button" class="button">
+                <a class="button-text" href="#artist-2">______(Artist 2)</a>
+            </button>
+            <button type="button" class="button">
+                <a class="button-text" href="#artist-3">______(Artist 3)</a>
+            </button>
+            <button type="button" class="button">
+                <a class="button-text" href="#artist-4">______(Artist 4)</a>
+            </button>
+            <button type="button" class="button">
+                <a class="button-text" href="#artist-5">______(Artist 5)</a>
+            </button>
+            <button type="button" class="button">
+                <a class="button-text" href="#artist-6">______(Artist 6)</a>
+            </button>
+        </div>
+
+        <!--Artist 1 Section-->
+        <div id="artist-1">
+            <!--Artist Header-->
+            <h2 class="sub-header">______(Artist 1)</h2>
+            <!--Artwork title-->
+            <h3 class="sub-sub-header">_______(Name of Artwork)</h3>
+            <!--Artwork-->
+            <img class="gallery-artwork" src="artwork_and_pictures/demo_art.png" alt="Demo">
+            <!--Artwork Description-->
+            <p class="body-text">
+                Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+            </p>
+            <!--Artwork title-->
+            <h3 class="sub-sub-header">_______(Name of Artwork)</h3>
+            <!--Artwork-->
+            <img class="gallery-artwork" src="artwork_and_pictures/demo_art.png" alt="Demo">
+            <!--Artwork Description-->
+            <p class="body-text">
+                Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+            </p>
+            <!--Artwork title-->
+            <h3 class="sub-sub-header">_______(Name of Artwork)</h3>
+            <!--Artwork-->
+            <img class="gallery-artwork" src="artwork_and_pictures/demo_art.png" alt="Demo">
+            <!--Artwork Description-->
+            <p class="body-text">
+                Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+            </p>
+        </div>
+
+        <!--Artist 2 Section-->
+        <div id="artist-2">
+            <!--Artist Header-->
+            <h2 class="sub-header">______(Artist 2)</h2>
+            <!--Artwork title-->
+            <h3 class="sub-sub-header">_______(Name of Artwork)</h3>
+            <!--Artwork-->
+            <img class="gallery-artwork" src="artwork_and_pictures/demo_art.png" alt="Demo">
+            <!--Artwork Description-->
+            <p class="body-text">
+                Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+            </p>
+            <!--Artwork title-->
+            <h3 class="sub-sub-header">_______(Name of Artwork)</h3>
+            <!--Artwork-->
+            <img class="gallery-artwork" src="artwork_and_pictures/demo_art.png" alt="Demo">
+            <!--Artwork Description-->
+            <p class="body-text">
+                Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+            </p>
+            <!--Artwork title-->
+            <h3 class="sub-sub-header">_______(Name of Artwork)</h3>
+            <!--Artwork-->
+            <img class="gallery-artwork" src="artwork_and_pictures/demo_art.png" alt="Demo">
+            <!--Artwork Description-->
+            <p class="body-text">
+                Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+            </p>
+        </div>
+
+        <!--Artist 3 Section-->
+        <div id="artist-3">
+            <!--Artist Header-->
+            <h2 class="sub-header">______(Artist 3)</h2>
+            <!--Artwork title-->
+            <h3 class="sub-sub-header">_______(Name of Artwork)</h3>
+            <!--Artwork-->
+            <img class="gallery-artwork" src="artwork_and_pictures/demo_art.png" alt="Demo">
+            <!--Artwork Description-->
+            <p class="body-text">
+                Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+            </p>
+            <!--Artwork title-->
+            <h3 class="sub-sub-header">_______(Name of Artwork)</h3>
+            <!--Artwork-->
+            <img class="gallery-artwork" src="artwork_and_pictures/demo_art.png" alt="Demo">
+            <!--Artwork Description-->
+            <p class="body-text">
+                Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+            </p>
+            <!--Artwork title-->
+            <h3 class="sub-sub-header">_______(Name of Artwork)</h3>
+            <!--Artwork-->
+            <img class="gallery-artwork" src="artwork_and_pictures/demo_art.png" alt="Demo">
+            <!--Artwork Description-->
+            <p class="body-text">
+                Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+            </p>
+        </div>
+        
+        <!--Artist 4 Section-->
+        <div id="artist-4">
+            <!--Artist Header-->
+            <h2 class="sub-header">______(Artist 4)</h2>
+            <!--Artwork title-->
+            <h3 class="sub-sub-header">_______(Name of Artwork)</h3>
+            <!--Artwork-->
+            <img class="gallery-artwork" src="artwork_and_pictures/demo_art.png" alt="Demo">
+            <!--Artwork Description-->
+            <p class="body-text">
+                Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+            </p>
+            <!--Artwork title-->
+            <h3 class="sub-sub-header">_______(Name of Artwork)</h3>
+            <!--Artwork-->
+            <img class="gallery-artwork" src="artwork_and_pictures/demo_art.png" alt="Demo">
+            <!--Artwork Description-->
+            <p class="body-text">
+                Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+            </p>
+            <!--Artwork title-->
+            <h3 class="sub-sub-header">_______(Name of Artwork)</h3>
+            <!--Artwork-->
+            <img class="gallery-artwork" src="artwork_and_pictures/demo_art.png" alt="Demo">
+            <!--Artwork Description-->
+            <p class="body-text">
+                Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+            </p>
+        </div>
+
+        <!--Artist 5 Section-->
+        <div id="artist-5">
+            <!--Artist Header-->
+            <h2 class="sub-header">______(Artist 5)</h2>
+            <!--Artwork title-->
+            <h3 class="sub-sub-header">_______(Name of Artwork)</h3>
+            <!--Artwork-->
+            <img class="gallery-artwork" src="artwork_and_pictures/demo_art.png" alt="Demo">
+            <!--Artwork Description-->
+            <p class="body-text">
+                Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+            </p>
+            <!--Artwork title-->
+            <h3 class="sub-sub-header">_______(Name of Artwork)</h3>
+            <!--Artwork-->
+            <img class="gallery-artwork" src="artwork_and_pictures/demo_art.png" alt="Demo">
+            <!--Artwork Description-->
+            <p class="body-text">
+                Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+            </p>
+            <!--Artwork title-->
+            <h3 class="sub-sub-header">_______(Name of Artwork)</h3>
+            <!--Artwork-->
+            <img class="gallery-artwork" src="artwork_and_pictures/demo_art.png" alt="Demo">
+            <!--Artwork Description-->
+            <p class="body-text">
+                Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+            </p>
+        </div>
+
+        <!--Artist 6 Section-->
+        <div id="artist-6">
+            <!--Artist Header-->
+            <h2 class="sub-header">______(Artist 6)</h2>
+            <!--Artwork title-->
+            <h3 class="sub-sub-header">_______(Name of Artwork)</h3>
+            <!--Artwork-->
+            <img class="gallery-artwork" src="artwork_and_pictures/demo_art.png" alt="Demo">
+            <!--Artwork Description-->
+            <p class="body-text">
+                Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+            </p>
+            <!--Artwork title-->
+            <h3 class="sub-sub-header">_______(Name of Artwork)</h3>
+            <!--Artwork-->
+            <img class="gallery-artwork" src="artwork_and_pictures/demo_art.png" alt="Demo">
+            <!--Artwork Description-->
+            <p class="body-text">
+                Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+            </p>
+            <!--Artwork title-->
+            <h3 class="sub-sub-header">_______(Name of Artwork)</h3>
+            <!--Artwork-->
+            <img class="gallery-artwork" src="artwork_and_pictures/demo_art.png" alt="Demo">
+            <!--Artwork Description-->
+            <p id="last-text-block" class="body-text">
+                Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah 
+            </p>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="footer">
+        <!--Footer box 1-->
+        <div class="footer-box">
+            <!--Footer Box Title-->
+            <h5 class="footer-title">Galleries</h5>
+            <!--Footer Box Links-->
+            <ul>
+                <li><a class="footer-link" href="year_9_gallery.html">Year 9 Gallery</a></li>
+                <li><a class="footer-link" href="year_10_gallery.html">Year 10 Gallery</a></li>
+                <li><a class="footer-link" href="year_11_gallery.html">Year 11 Gallery</a></li>
+                <li><a class="footer-link" href="year_12_gallery.html">Year 12 Gallery</a></li>
+                <li><a class="footer-link" href="year_13_gallery.html">Year 13 Gallery</a></li>
+            </ul>
+        </div>
+
+        <!--Footer box 2-->
+        <div class="footer-box">
+            <!--Footer Box Title-->
+            <h5 class="footer-title">About</h5>
+            <!--Footer Box Links-->
+            <ul>
+                <li><a class="footer-link" href="about_the_school.html">About the School</a></li>
+                <li><a class="footer-link" href="about_the_art_department.html">About the Art Department</a></li>
+                <li><a class="footer-link" href="about_the_artists.html">About the Artists</a></li>
+            </ul>
+        </div>
+        
+        <!--Footer box 3-->
+        <div id="utilities" class="footer-box">
+            <!--Footer Box Title-->
+            <h5 class="footer-title">Utilities</h5>
+            <!--Footer Box Links-->
+            <ul><li><a class="footer-link" href="sitemap.html">Sitemap</a></li></ul>
+        </div>
+    </footer>
+</body>
