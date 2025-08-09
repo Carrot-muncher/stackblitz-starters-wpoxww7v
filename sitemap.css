@@ -159,8 +159,7 @@ body{
 /*Formatting the footer*/
 .footer{
     background-color: rgb(190, 190, 190);
-    padding: 10px 1%;
-    margin-top: 10px;
+    padding: 10px 1% ;
 }
 
 /*Formatting the footer boxes*/
@@ -194,7 +193,7 @@ body{
         width: 32%;
     }
 }
-@media only screen and (min-width: 907px) {
+@media only screen and (max-width: 375px) {
     .footer-box{
         display: block;
         margin-bottom: 10px;
@@ -204,6 +203,8 @@ body{
         border: 1px solid black;
         border-radius: 7.5px;
     }
+}
+@media only screen and (min-width: 907px) {
     #utilities {
         width: 33%;
     }

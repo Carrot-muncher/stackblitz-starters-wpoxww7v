@@ -216,6 +216,7 @@ body{
 .footer{
     background-color: rgb(190, 190, 190);
     padding: 10px 1% ;
+    margin-top: 10px;
 }
 
 /*Formatting the footer boxes*/
